@@ -20,7 +20,7 @@ function App() {
   return (
     <>
 
-      <div className={`relative `}>
+      <div className={`relative  `}>
 
         <div className="fixed bg-gradient-to-b from-black to-transparent top-0 left-0 right-0  z-10 ">
         

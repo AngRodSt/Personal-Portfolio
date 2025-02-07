@@ -16,7 +16,7 @@ const About = () => {
 
     return (
         <>
-            <div  className=" relative min-h-screen md:pt-32 pt-44 bg-gradient-to-t from-transparent   to-cyan-500/90  backdrop-blur-sm cursor-default -z-20">
+            <div  className=" relative min-h-screen md:pt-32 pt-44 bg-gradient-to-t from-transparent   to-cyan-500/90  backdrop-blur-sm cursor-default">
                 <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 md:py-20  -mt-10  rounded-lg   ">
                     <div className="flex flex-col justify-center items-center">
                         <img
