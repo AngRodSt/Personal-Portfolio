@@ -39,8 +39,8 @@ const TypewriterEffect = ({
         ref={scope}
         className="inline-block relative text-center"
         style={{
-          whiteSpace: "pre",  
-          minWidth: "11rem",  
+          whiteSpace: "pre",
+          minWidth: "11rem",
         }}
       >
         {wordsArray.map((word, idx) => (
@@ -48,11 +48,11 @@ const TypewriterEffect = ({
             {word.text.map((char, index) => (
               <motion.span
                 key={`char-${index}`}
-                initial={{ visibility: "hidden" }} 
-                animate={{ visibility: "visible", opacity: 1 }} 
-                transition={{ duration: 0.5, delay: index * 0.3 }} 
+                initial={{ visibility: "hidden" }}
+                animate={{ visibility: "visible", opacity: 1 }}
+                transition={{ duration: 0.5, delay: index * 0.3 }}
                 className={cn(`inline-block`, word.className)}
-                style={{ minWidth: "0.6rem" }} 
+                style={{ minWidth: "0.6rem" }}
               >
                 {char}
               </motion.span>
@@ -94,7 +94,7 @@ export const TypewriterEffectSmooth = ({
   className,
   cursorClassName
 }) => {
- 
+
   const wordsArray = words.map((word) => {
     return {
       ...word,
