@@ -29,7 +29,25 @@ const Projects = () => {
             title={"WorldsxMap"}
             type={"Full Stack App"}
             description={
-              "A dynamic and interactive web application featuring a world map where each country serves as a clickable, customizable element. Users can select countries, change their colors, and attach personalized notes to document experiences, conversations, or future travel plans. Designed for travelers, researchers, and global enthusiasts, this platform transforms the map into a personal canvas for storytelling, planning, and exploration."
+              <>
+                A dynamic and interactive web application featuring a world map
+                where each country serves as a clickable, customizable element.
+                Users can select countries, change their colors, and attach
+                personalized notes to document experiences, conversations, or
+                future travel plans. Designed for travelers, researchers, and
+                global enthusiasts, this platform transforms the map into a
+                personal canvas for storytelling, planning, and exploration.{" "}
+                <n />
+                <p>
+                  <span className="font-bold">Test credentials:</span>
+                  <li>Email: correo@correo.com</li> <li>Password: 123456</li>
+                  <span className="font-bold">Please note:</span> The project is
+                  hosted on Render (free version), so the server might take a
+                  few seconds to wake up if it has been inactive. If the first
+                  attempt fails, I kindly ask you to try refreshing and logging
+                  in again as the server becomes active.
+                </p>
+              </>
             }
             tecnologys={"Next.js | Express | MongoDB | Tailwindcss"}
           />
