@@ -28,8 +28,6 @@ const ProjectFilters = ({ onFilterChange }) => {
       { value: "MongoDB", label: "MongoDB" },
       { value: "Firebase", label: "Firebase" },
       { value: "GraphQL", label: "GraphQL" },
-      { value: "Expo", label: "Expo" },
-      { value: "Tailwindcss", label: "Tailwind CSS" },
     ],
     status: [
       { value: "all", label: "All Status" },

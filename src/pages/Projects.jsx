@@ -44,6 +44,31 @@ const projectsData = [
     tecnologys: "React Native | Expo | Firebase | OpenAI API | Google API",
   },
   {
+    url: "bg-[url('/agroclima.png')]",
+    githubLink: "https://github.com/AngRodSt/AgroClima-Vega",
+    webLink: "https://agro-clima-vega.vercel.app",
+    title: "AgroClima Vega",
+    type: "Full Stack App",
+    status: "inProgress",
+    featured: true,
+    description: (
+      <>
+        Comprehensive precision agriculture solution combining IoT hardware
+        (Arduino) with modern web dashboard. Provides 24/7 agricultural
+        monitoring with intelligent analysis and automated alerts to optimize
+        production in La Vega, Dominican Republic.
+        <div className="mt-3 p-2 bg-orange-500/20 border border-orange-400/30 rounded-lg">
+          <p className="text-xs text-orange-300">
+            🚧 <span className="font-bold">In Development</span> - AgTech
+            Platform
+          </p>
+        </div>
+      </>
+    ),
+    tecnologys:
+      "React | TypeScript | Arduino | Tailwindcss | Chart.js | Leaflet",
+  },
+  {
     url: "bg-[url('/AngrodDesign.png')]",
     githubLink: "https://github.com/AngRodSt/AngRod-Designs",
     webLink: "https://ang-rod-designs.vercel.app",
