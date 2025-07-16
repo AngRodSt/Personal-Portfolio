@@ -33,7 +33,7 @@ const ProjectStats = ({ projects }) => {
           <div className="w-full bg-black/40 rounded-full h-2 border border-cyan-500/20">
             <div
               className="bg-gradient-to-r from-cyan-500 to-cyan-400 h-2 rounded-full transition-all duration-1000 shadow-md"
-              style={{ width: `${(stats.total / 15) * 100}%` }}
+              style={{ width: `${(stats.total / 50) * 100}%` }}
             ></div>
           </div>
         </div>
